@@ -1,0 +1,2399 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SistemaLogisticaFastTruck
+</name>
+</assembly>
+<members>
+<member name="T:SistemaLogisticaFastTruck.My.MyWebExtension">
+ <summary>
+ Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:SistemaLogisticaFastTruck.My.MyWebExtension.Computer">
+ <summary>
+ Devuelve información sobre el equipo host.
+ </summary>
+</member>
+<member name="P:SistemaLogisticaFastTruck.My.MyWebExtension.User">
+ <summary>
+ Devuelve información del usuario web actual.
+ </summary>
+</member>
+<member name="P:SistemaLogisticaFastTruck.My.MyWebExtension.Request">
+ <summary>
+ Devuelve un objeto Request.
+ </summary>
+</member>
+<member name="P:SistemaLogisticaFastTruck.My.MyWebExtension.Response">
+ <summary>
+ Devuelve un objeto Response.
+ </summary>
+</member>
+<member name="P:SistemaLogisticaFastTruck.My.MyWebExtension.Log">
+ <summary>
+ Devuelve el objeto de registro Asp.
+ </summary>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaCamion._Form_AltaCamion">
+<summary>
+Control Form_AltaCamion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaCamion._Lb_Modelo">
+<summary>
+Control Lb_Modelo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaCamion._Txt_Modelo">
+<summary>
+Control Txt_Modelo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaCamion._RequiredFieldValidator2">
+<summary>
+Control RequiredFieldValidator2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaCamion._Lb_Patente">
+<summary>
+Control Lb_Patente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaCamion._Txt_Patente">
+<summary>
+Control Txt_Patente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaCamion._RegularExpressionValidator1">
+<summary>
+Control RegularExpressionValidator1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaCamion._Btn_AgregarCamion">
+<summary>
+Control Btn_AgregarCamion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaCamion._Btn_Cancelar">
+<summary>
+Control Btn_Cancelar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaChofer._Form_AltaChofer">
+<summary>
+Control Form_AltaChofer.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaChofer._Lb_NombreChofer">
+<summary>
+Control Lb_NombreChofer.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaChofer._Txt_NombreChofer">
+<summary>
+Control Txt_NombreChofer.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaChofer._RequiredFieldValidator2">
+<summary>
+Control RequiredFieldValidator2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaChofer._Lb_ApellidoChofer">
+<summary>
+Control Lb_ApellidoChofer.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaChofer._Txt_ApellidoChofer">
+<summary>
+Control Txt_ApellidoChofer.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaChofer._RequiredFieldValidator1">
+<summary>
+Control RequiredFieldValidator1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaChofer._Lb_DniChofer">
+<summary>
+Control Lb_DniChofer.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaChofer._Txt_DniChofer">
+<summary>
+Control Txt_DniChofer.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaChofer._RequiredFieldValidator3">
+<summary>
+Control RequiredFieldValidator3.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaChofer._Btn_AgregarChofer">
+<summary>
+Control Btn_AgregarChofer.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaChofer._Btn_Cancelar">
+<summary>
+Control Btn_Cancelar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaCiudad._Form_AltaCiudad">
+<summary>
+Control Form_AltaCiudad.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaCiudad._Lb_Ciudad">
+<summary>
+Control Lb_Ciudad.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaCiudad._Txt_Ciudad">
+<summary>
+Control Txt_Ciudad.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaCiudad._RequiredFieldValidator2">
+<summary>
+Control RequiredFieldValidator2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaCiudad._DrpDw_Provincias">
+<summary>
+Control DrpDw_Provincias.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaCiudad._Lb_InfoProvincia">
+<summary>
+Control Lb_InfoProvincia.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaCiudad._Btn_AgregarProvincia">
+<summary>
+Control Btn_AgregarProvincia.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaCiudad._Btn_AgregarCiudad">
+<summary>
+Control Btn_AgregarCiudad.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaCiudad._Btn_Cancelar">
+<summary>
+Control Btn_Cancelar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaCliente._Form_AltaCliente">
+<summary>
+Control Form_AltaCliente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaCliente._Lb_NombreCliente">
+<summary>
+Control Lb_NombreCliente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaCliente._Txt_NombreCliente">
+<summary>
+Control Txt_NombreCliente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaCliente._RequiredFieldValidator2">
+<summary>
+Control RequiredFieldValidator2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaCliente._Lb_ApellidoCliente">
+<summary>
+Control Lb_ApellidoCliente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaCliente._Txt_ApellidoCliente">
+<summary>
+Control Txt_ApellidoCliente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaCliente._RequiredFieldValidator1">
+<summary>
+Control RequiredFieldValidator1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaCliente._Lb_DniCliente">
+<summary>
+Control Lb_DniCliente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaCliente._Txt_DniCliente">
+<summary>
+Control Txt_DniCliente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaCliente._RequiredFieldValidator3">
+<summary>
+Control RequiredFieldValidator3.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaCliente._Btn_AgregarCliente">
+<summary>
+Control Btn_AgregarCliente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaCliente._Btn_Cancelar">
+<summary>
+Control Btn_Cancelar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaEnvio._Form_AltaEnvio">
+<summary>
+Control Form_AltaEnvio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaEnvio._Lb_Detalle">
+<summary>
+Control Lb_Detalle.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaEnvio._Txt_Detalle">
+<summary>
+Control Txt_Detalle.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaEnvio._RequiredFieldValidator1">
+<summary>
+Control RequiredFieldValidator1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaEnvio._Lb_Cliente">
+<summary>
+Control Lb_Cliente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaEnvio._DrpDw_Clientes">
+<summary>
+Control DrpDw_Clientes.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaEnvio._Lb_InfoCliente">
+<summary>
+Control Lb_InfoCliente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaEnvio._Btn_AgregarCliente">
+<summary>
+Control Btn_AgregarCliente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaEnvio._Lb_DatosDireccion">
+<summary>
+Control Lb_DatosDireccion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaEnvio._Lb_Direccion">
+<summary>
+Control Lb_Direccion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaEnvio._Txt_Direccion">
+<summary>
+Control Txt_Direccion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaEnvio._RequiredFieldValidator2">
+<summary>
+Control RequiredFieldValidator2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaEnvio._Lb_Provincia">
+<summary>
+Control Lb_Provincia.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaEnvio._DrpDw_Provincias">
+<summary>
+Control DrpDw_Provincias.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaEnvio._Lb_InfoProvincia">
+<summary>
+Control Lb_InfoProvincia.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaEnvio._Btn_AgregarProvincia">
+<summary>
+Control Btn_AgregarProvincia.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaEnvio._Lb_Ciudad">
+<summary>
+Control Lb_Ciudad.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaEnvio._DrpDw_Ciudades">
+<summary>
+Control DrpDw_Ciudades.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaEnvio._Lb_InfoCiudad">
+<summary>
+Control Lb_InfoCiudad.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaEnvio._Btn_AgregarCiudad">
+<summary>
+Control Btn_AgregarCiudad.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaEnvio._Lb_Camiones">
+<summary>
+Control Lb_Camiones.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaEnvio._DrpDw_Camiones">
+<summary>
+Control DrpDw_Camiones.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaEnvio._Lb_InfoCamion">
+<summary>
+Control Lb_InfoCamion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaEnvio._Btn_AgregarCamion">
+<summary>
+Control Btn_AgregarCamion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaEnvio._Lb_Choferes">
+<summary>
+Control Lb_Choferes.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaEnvio._DrpDw_Choferes">
+<summary>
+Control DrpDw_Choferes.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaEnvio._Lb_InfoChofer">
+<summary>
+Control Lb_InfoChofer.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaEnvio._Btn_AgregarChofer">
+<summary>
+Control Btn_AgregarChofer.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaEnvio._Cdr_FechaEnvio">
+<summary>
+Control Cdr_FechaEnvio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaEnvio._Btn_AgregarEnvio">
+<summary>
+Control Btn_AgregarEnvio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaEnvio._Btn_Cancelar">
+<summary>
+Control Btn_Cancelar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaPedido._Form_AltaPedido">
+<summary>
+Control Form_AltaPedido.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaPedido._Lb_Detalle">
+<summary>
+Control Lb_Detalle.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaPedido._Txt_Detalle">
+<summary>
+Control Txt_Detalle.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaPedido._RequiredFieldValidator2">
+<summary>
+Control RequiredFieldValidator2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaPedido._Lb_Cliente">
+<summary>
+Control Lb_Cliente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaPedido._DrpDw_Clientes">
+<summary>
+Control DrpDw_Clientes.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaPedido._Lb_InfoCliente">
+<summary>
+Control Lb_InfoCliente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaPedido._Btn_AgregarCliente">
+<summary>
+Control Btn_AgregarCliente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaPedido._Lb_DatosDireccion">
+<summary>
+Control Lb_DatosDireccion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaPedido._Lb_Direccion">
+<summary>
+Control Lb_Direccion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaPedido._Txt_Direccion">
+<summary>
+Control Txt_Direccion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaPedido._RequiredFieldValidator1">
+<summary>
+Control RequiredFieldValidator1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaPedido._Lb_Provincia">
+<summary>
+Control Lb_Provincia.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaPedido._DrpDw_Provincias">
+<summary>
+Control DrpDw_Provincias.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaPedido._Lb_InfoProvincia">
+<summary>
+Control Lb_InfoProvincia.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaPedido._Btn_AgregarProvincia">
+<summary>
+Control Btn_AgregarProvincia.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaPedido._Lb_Ciudad">
+<summary>
+Control Lb_Ciudad.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaPedido._DrpDw_Ciudades">
+<summary>
+Control DrpDw_Ciudades.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaPedido._Lb_InfoCiudad">
+<summary>
+Control Lb_InfoCiudad.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaPedido._Btn_AgregarCiudad">
+<summary>
+Control Btn_AgregarCiudad.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaPedido._Cdr_FechaPedido">
+<summary>
+Control Cdr_FechaPedido.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaPedido._Btn_AgregarPedido">
+<summary>
+Control Btn_AgregarPedido.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaPedido._Btn_Cancelar">
+<summary>
+Control Btn_Cancelar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaProvincia._Form_AltaProvincia">
+<summary>
+Control Form_AltaProvincia.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaProvincia._Lb_Provincia">
+<summary>
+Control Lb_Provincia.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaProvincia._DrpDw_Provincia">
+<summary>
+Control DrpDw_Provincia.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaProvincia._Btn_AgregarProvincia">
+<summary>
+Control Btn_AgregarProvincia.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.AltaProvincia._Btn_Cancelar">
+<summary>
+Control Btn_Cancelar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionCamion._Form_Baja_Modificacion_Camion">
+<summary>
+Control Form_Baja_Modificacion_Camion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionCamion._Txt_id">
+<summary>
+Control Txt_id.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionCamion._Lb_Modelo">
+<summary>
+Control Lb_Modelo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionCamion._Txt_Modelo">
+<summary>
+Control Txt_Modelo.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionCamion._RequiredFieldValidator2">
+<summary>
+Control RequiredFieldValidator2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionCamion._Lb_Patente">
+<summary>
+Control Lb_Patente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionCamion._Txt_Patente">
+<summary>
+Control Txt_Patente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionCamion._RegularExpressionValidator1">
+<summary>
+Control RegularExpressionValidator1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionCamion._Btn_ModificarCamion">
+<summary>
+Control Btn_ModificarCamion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionCamion._Btn_Eliminar">
+<summary>
+Control Btn_Eliminar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionCamion._Btn_Cancelar">
+<summary>
+Control Btn_Cancelar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionChofer._Form_Baja_Modificaion_Chofer">
+<summary>
+Control Form_Baja_Modificaion_Chofer.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionChofer._Txt_id">
+<summary>
+Control Txt_id.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionChofer._Lb_NombreChofer">
+<summary>
+Control Lb_NombreChofer.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionChofer._Txt_NombreChofer">
+<summary>
+Control Txt_NombreChofer.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionChofer._RequiredFieldValidator2">
+<summary>
+Control RequiredFieldValidator2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionChofer._Lb_ApellidoChofer">
+<summary>
+Control Lb_ApellidoChofer.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionChofer._Txt_ApellidoChofer">
+<summary>
+Control Txt_ApellidoChofer.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionChofer._RequiredFieldValidator1">
+<summary>
+Control RequiredFieldValidator1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionChofer._Lb_DniChofer">
+<summary>
+Control Lb_DniChofer.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionChofer._Txt_DniChofer">
+<summary>
+Control Txt_DniChofer.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionChofer._RegularExpressionValidator1">
+<summary>
+Control RegularExpressionValidator1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionChofer._Btn_ModificarChofer">
+<summary>
+Control Btn_ModificarChofer.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionChofer._Btn_Eliminar">
+<summary>
+Control Btn_Eliminar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionChofer._Btn_Cancelar">
+<summary>
+Control Btn_Cancelar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionCiudad._Form_Baja_Modificacion_Ciudad">
+<summary>
+Control Form_Baja_Modificacion_Ciudad.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionCiudad._Txt_Id">
+<summary>
+Control Txt_Id.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionCiudad._Lb_Ciudad">
+<summary>
+Control Lb_Ciudad.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionCiudad._Txt_Ciudad">
+<summary>
+Control Txt_Ciudad.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionCiudad._RequiredFieldValidator2">
+<summary>
+Control RequiredFieldValidator2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionCiudad._DrpDw_Provincias">
+<summary>
+Control DrpDw_Provincias.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionCiudad._Btn_ModificarCiudad">
+<summary>
+Control Btn_ModificarCiudad.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionCiudad._Btn_Eliminar">
+<summary>
+Control Btn_Eliminar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionCiudad._Btn_Cancelar">
+<summary>
+Control Btn_Cancelar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionCliente._Form_Baja_Modificacion_Cliente">
+<summary>
+Control Form_Baja_Modificacion_Cliente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionCliente._Txt_id">
+<summary>
+Control Txt_id.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionCliente._Lb_NombreCliente">
+<summary>
+Control Lb_NombreCliente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionCliente._Txt_NombreCliente">
+<summary>
+Control Txt_NombreCliente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionCliente._RequiredFieldValidator2">
+<summary>
+Control RequiredFieldValidator2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionCliente._Lb_ApellidoCliente">
+<summary>
+Control Lb_ApellidoCliente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionCliente._Txt_ApellidoCliente">
+<summary>
+Control Txt_ApellidoCliente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionCliente._RequiredFieldValidator1">
+<summary>
+Control RequiredFieldValidator1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionCliente._Lb_DniCliente">
+<summary>
+Control Lb_DniCliente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionCliente._Txt_DniCliente">
+<summary>
+Control Txt_DniCliente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionCliente._RegularExpressionValidator1">
+<summary>
+Control RegularExpressionValidator1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionCliente._Btn_ModificarCliente">
+<summary>
+Control Btn_ModificarCliente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionCliente._Btn_Eliminar">
+<summary>
+Control Btn_Eliminar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionCliente._Btn_Cancelar">
+<summary>
+Control Btn_Cancelar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionEnvio._Form_Baja_Modificacion_Envio">
+<summary>
+Control Form_Baja_Modificacion_Envio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionEnvio._Txt_Id">
+<summary>
+Control Txt_Id.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionEnvio._Lb_Detalle">
+<summary>
+Control Lb_Detalle.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionEnvio._Txt_Detalle">
+<summary>
+Control Txt_Detalle.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionEnvio._RequiredFieldValidator1">
+<summary>
+Control RequiredFieldValidator1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionEnvio._Lb_Cliente">
+<summary>
+Control Lb_Cliente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionEnvio._DrpDw_Clientes">
+<summary>
+Control DrpDw_Clientes.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionEnvio._Lb_DatosDireccion">
+<summary>
+Control Lb_DatosDireccion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionEnvio._Lb_Direccion">
+<summary>
+Control Lb_Direccion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionEnvio._Txt_Direccion">
+<summary>
+Control Txt_Direccion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionEnvio._RequiredFieldValidator2">
+<summary>
+Control RequiredFieldValidator2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionEnvio._Lb_Provincia">
+<summary>
+Control Lb_Provincia.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionEnvio._DrpDw_Provincias">
+<summary>
+Control DrpDw_Provincias.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionEnvio._Lb_Ciudad">
+<summary>
+Control Lb_Ciudad.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionEnvio._DrpDw_Ciudades">
+<summary>
+Control DrpDw_Ciudades.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionEnvio._Lb_Camiones">
+<summary>
+Control Lb_Camiones.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionEnvio._DrpDw_Camiones">
+<summary>
+Control DrpDw_Camiones.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionEnvio._Lb_Choferes">
+<summary>
+Control Lb_Choferes.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionEnvio._DrpDw_Choferes">
+<summary>
+Control DrpDw_Choferes.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionEnvio._Cdr_FechaEnvio">
+<summary>
+Control Cdr_FechaEnvio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionEnvio._Btn_ModificarEnvio">
+<summary>
+Control Btn_ModificarEnvio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionEnvio._Btn_EliminarEnvio">
+<summary>
+Control Btn_EliminarEnvio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionEnvio._Btn_Cancelar">
+<summary>
+Control Btn_Cancelar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionEnvio._Btn_ConfirmarEntrega">
+<summary>
+Control Btn_ConfirmarEntrega.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionPedido._Form_Baja_Modificacion_Pedido">
+<summary>
+Control Form_Baja_Modificacion_Pedido.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionPedido._Txt_Id">
+<summary>
+Control Txt_Id.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionPedido._Lb_Detalle">
+<summary>
+Control Lb_Detalle.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionPedido._Txt_Detalle">
+<summary>
+Control Txt_Detalle.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionPedido._RequiredFieldValidator2">
+<summary>
+Control RequiredFieldValidator2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionPedido._Lb_Cliente">
+<summary>
+Control Lb_Cliente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionPedido._DrpDw_Clientes">
+<summary>
+Control DrpDw_Clientes.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionPedido._Lb_DatosDireccion">
+<summary>
+Control Lb_DatosDireccion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionPedido._Lb_Direccion">
+<summary>
+Control Lb_Direccion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionPedido._Txt_Direccion">
+<summary>
+Control Txt_Direccion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionPedido._RequiredFieldValidator1">
+<summary>
+Control RequiredFieldValidator1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionPedido._Lb_Provincia">
+<summary>
+Control Lb_Provincia.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionPedido._DrpDw_Provincias">
+<summary>
+Control DrpDw_Provincias.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionPedido._Lb_Ciudad">
+<summary>
+Control Lb_Ciudad.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionPedido._DrpDw_Ciudades">
+<summary>
+Control DrpDw_Ciudades.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionPedido._Cdr_FechaPedido">
+<summary>
+Control Cdr_FechaPedido.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionPedido._Btn_ModificarPedido">
+<summary>
+Control Btn_ModificarPedido.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionPedido._Btn_EliminarPedido">
+<summary>
+Control Btn_EliminarPedido.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionPedido._Btn_Cancelar">
+<summary>
+Control Btn_Cancelar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionProvincia._Form_Baja_Modificacion_Provincia">
+<summary>
+Control Form_Baja_Modificacion_Provincia.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionProvincia._Txt_id">
+<summary>
+Control Txt_id.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionProvincia._Lb_Provincia">
+<summary>
+Control Lb_Provincia.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionProvincia._DrpDw_Provincia">
+<summary>
+Control DrpDw_Provincia.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionProvincia._Btn_ModificarProvincia">
+<summary>
+Control Btn_ModificarProvincia.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionProvincia._Btn_Eliminar">
+<summary>
+Control Btn_Eliminar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Baja_ModificacionProvincia._Btn_Cancelar">
+<summary>
+Control Btn_Cancelar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Inicio._Form1">
+<summary>
+Control Form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.Inicio._Btn_CerrarSesion">
+<summary>
+Control Btn_CerrarSesion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.InicioSesion._Form_InicioSesion">
+<summary>
+Control Form_InicioSesion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.InicioSesion._Lb_NombreUsuario">
+<summary>
+Control Lb_NombreUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.InicioSesion._Txt_NombreUsuario">
+<summary>
+Control Txt_NombreUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.InicioSesion._Lb_Password">
+<summary>
+Control Lb_Password.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.InicioSesion._Imp_Password">
+<summary>
+Control Imp_Password.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.InicioSesion._Btn_Ingresar">
+<summary>
+Control Btn_Ingresar.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.InicioSesion._Lb_InfoAlUsuario">
+<summary>
+Control Lb_InfoAlUsuario.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ListarCamiones._Form_ListarCamiones">
+<summary>
+Control Form_ListarCamiones.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ListarCamiones._Rpt_Camion">
+<summary>
+Control Rpt_Camion.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ListarChoferes._Form_ListarChoferes">
+<summary>
+Control Form_ListarChoferes.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ListarChoferes._Rpt_Chofer">
+<summary>
+Control Rpt_Chofer.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ListarCiudades._Form_ListarCiudades">
+<summary>
+Control Form_ListarCiudades.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ListarCiudades._Rpt_Ciudad">
+<summary>
+Control Rpt_Ciudad.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ListarClientes._Form_ListarClientes">
+<summary>
+Control Form_ListarClientes.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ListarClientes._Rpt_Cliente">
+<summary>
+Control Rpt_Cliente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ListarEnvios._Form_ListarEnvios">
+<summary>
+Control Form_ListarEnvios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ListarEnvios._Rpt_Envio">
+<summary>
+Control Rpt_Envio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ListarPedidos._Form_ListarPedidos">
+<summary>
+Control Form_ListarPedidos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ListarPedidos._Rpt_Pedido">
+<summary>
+Control Rpt_Pedido.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ListarProvincias._Form_ListarProvincias">
+<summary>
+Control Form_ListarProvincias.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ListarProvincias._Rpt_Provincia">
+<summary>
+Control Rpt_Provincia.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesEnvios._Form_ReportesEnvios">
+<summary>
+Control Form_ReportesEnvios.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesEnvios._Lb_Filtro">
+<summary>
+Control Lb_Filtro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesEnvios._Lb_Clientes">
+<summary>
+Control Lb_Clientes.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesEnvios._DrpDw_Clientes">
+<summary>
+Control DrpDw_Clientes.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesEnvios._Lb_Provincias">
+<summary>
+Control Lb_Provincias.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesEnvios._DrpDw_Provincias">
+<summary>
+Control DrpDw_Provincias.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesEnvios._Lb_Ciudades">
+<summary>
+Control Lb_Ciudades.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesEnvios._DrpDw_Ciudades">
+<summary>
+Control DrpDw_Ciudades.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesEnvios._Lb_Choferes">
+<summary>
+Control Lb_Choferes.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesEnvios._DrpDw_Choferes">
+<summary>
+Control DrpDw_Choferes.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesEnvios._Lb_Camiones">
+<summary>
+Control Lb_Camiones.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesEnvios._DrpDw_Camiones">
+<summary>
+Control DrpDw_Camiones.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesEnvios._Lb_EstadoEntrega">
+<summary>
+Control Lb_EstadoEntrega.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesEnvios._DrpDw_EstadoEntrega">
+<summary>
+Control DrpDw_EstadoEntrega.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesEnvios._Lb_FiltroFechas">
+<summary>
+Control Lb_FiltroFechas.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesEnvios._Lb_Fecha1">
+<summary>
+Control Lb_Fecha1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesEnvios._Fecha1">
+<summary>
+Control Fecha1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesEnvios._Lb_Fecha2">
+<summary>
+Control Lb_Fecha2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesEnvios._Fecha2">
+<summary>
+Control Fecha2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesEnvios._Btn_SolicitarReporte">
+<summary>
+Control Btn_SolicitarReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesEnvios._Btn_LimpiarFiltros">
+<summary>
+Control Btn_LimpiarFiltros.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesEnvios._Btn_Volver">
+<summary>
+Control Btn_Volver.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesEnvios._Rpt_ReporteEnvio">
+<summary>
+Control Rpt_ReporteEnvio.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesPedidos._Form_ReportesPedidos">
+<summary>
+Control Form_ReportesPedidos.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesPedidos._Lb_Filtro">
+<summary>
+Control Lb_Filtro.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesPedidos._Lb_Clientes">
+<summary>
+Control Lb_Clientes.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesPedidos._DrpDw_Clientes">
+<summary>
+Control DrpDw_Clientes.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesPedidos._Lb_Provincias">
+<summary>
+Control Lb_Provincias.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesPedidos._DrpDw_Provincias">
+<summary>
+Control DrpDw_Provincias.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesPedidos._Lb_Ciudades">
+<summary>
+Control Lb_Ciudades.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesPedidos._DrpDw_Ciudades">
+<summary>
+Control DrpDw_Ciudades.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesPedidos._Lb_FiltroFechas">
+<summary>
+Control Lb_FiltroFechas.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesPedidos._Lb_Fecha1">
+<summary>
+Control Lb_Fecha1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesPedidos._Fecha1">
+<summary>
+Control Fecha1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesPedidos._Lb_Fecha2">
+<summary>
+Control Lb_Fecha2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesPedidos._Fecha2">
+<summary>
+Control Fecha2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesPedidos._Btn_SolicitarReporte">
+<summary>
+Control Btn_SolicitarReporte.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesPedidos._Btn_LimpiarFiltros">
+<summary>
+Control Btn_LimpiarFiltros.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesPedidos._Btn_Volver">
+<summary>
+Control Btn_Volver.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:SistemaLogisticaFastTruck.ReportesPedidos._Rpt_ReportePedido">
+<summary>
+Control Rpt_ReportePedido.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+</members>
+</doc>
